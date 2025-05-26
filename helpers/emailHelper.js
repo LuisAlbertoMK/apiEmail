@@ -11,9 +11,7 @@ const emailHelper = async (from, to, subject, text, html,attachments) => {
     },
   });
 
-  const email = `${from}`
-  // console.log(email)
-  // Set up email options
+ 
   let mailOptions = {
     from: {
       name: "AppUtos",
