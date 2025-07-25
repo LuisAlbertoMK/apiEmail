@@ -6,7 +6,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 
-const whiteList=['https://speed-pro-desarrollo.web.app','http://localhost:4200'];
+const whiteList=['https://speed-pro-desarrollo.web.app','http://localhost:4200','https://apputos.app'];
 
 // Configuración de CORS
 const corsOptions = {
